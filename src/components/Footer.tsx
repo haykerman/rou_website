@@ -36,6 +36,13 @@ export function Footer() {
             >
               Terms of Service
             </Link>
+            <Link
+              to="/delete-data"
+              style={{ color: theme.colors.onSurface }}
+              className="hover:opacity-80"
+            >
+              Delete My Data
+            </Link>
           </div>
           <p
             style={{ color: theme.colors.onSurfaceVariant }}
